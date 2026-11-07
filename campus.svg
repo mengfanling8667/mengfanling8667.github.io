@@ -1,0 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" fill="none">
+  <defs>
+    <filter id="ground-shadow" x="-30%" y="-50%" width="160%" height="200%">
+      <feGaussianBlur stdDeviation="13"/>
+    </filter>
+    <filter id="building-shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <linearGradient id="slab" x1="335" y1="340" x2="682" y2="530" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9DDCA"/><stop offset="1" stop-color="#C7CDB9"/>
+    </linearGradient>
+    <linearGradient id="court" x1="0" y1="0" x2="150" y2="160" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C38869"/><stop offset="1" stop-color="#AE6D55"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="18" y2="17" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#759183"/><stop offset="1" stop-color="#496E5C"/>
+    </linearGradient>
+    <g id="window">
+      <rect width="18" height="16" rx=".8" fill="#D2D8C5"/>
+      <rect x="1.5" y="1.5" width="15" height="12.5" fill="url(#glass)"/>
+      <path d="M9 2V14M2 8H16" stroke="#A9BDA9" stroke-width=".8"/>
+      <path d="M2.5 2.5H7V7H2.5Z" fill="#BAD0BB" opacity=".35"/>
+      <path d="M-1 16.5H19" stroke="#FAF8E9" stroke-width="2"/>
+    </g>
+    <g id="windows-eight">
+      <use href="#window" x="12"/><use href="#window" x="42"/>
+      <use href="#window" x="72"/><use href="#window" x="102"/>
+      <use href="#window" x="132"/><use href="#window" x="162"/>
+      <use href="#window" x="192"/><use href="#window" x="222"/>
+    </g>
+    <g id="windows-six">
+      <use href="#window" x="13"/><use href="#window" x="46"/>
+      <use href="#window" x="79"/><use href="#window" x="112"/>
+      <use href="#window" x="145"/><use href="#window" x="178"/>
+    </g>
+    <g id="tree">
+      <ellipse cx="7" cy="3" rx="31" ry="10" fill="#365747" opacity=".12"/>
+      <path d="M-3 0V-49H4V0Z" fill="#8C8064"/>
+      <path d="M0-28L-13-42M1-34L14-48" stroke="#8C8064" stroke-width="4" stroke-linecap="round"/>
+      <path d="M-31-57C-35-76-23-89-7-89C4-101 24-91 27-78C42-72 41-51 29-43C24-28 4-29-5-35C-21-29-35-41-31-57Z" fill="#54765A"/>
+      <path d="M-28-64C-28-78-17-86-6-83C5-94 23-83 21-72C32-66 29-52 18-49C4-44-10-51-13-58C-20-54-28-57-28-64Z" fill="#7F9C76"/>
+      <path d="M-14-79C-7-85 3-82 6-76C-2-78-8-73-10-68C-16-69-18-74-14-79Z" fill="#AAC09A" opacity=".65"/>
+      <path d="M9-43C17-41 25-46 28-52" stroke="#3E644D" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <g id="shrub">
+      <ellipse cy="1" rx="15" ry="6" fill="#607B53" opacity=".15"/>
+      <path d="M-14-4C-17-11-11-17-5-16C0-24 12-19 12-12C20-6 12 1 5-1C-3 4-15 2-14-4Z" fill="#8DA57B"/>
+      <path d="M-10-10C-6-15 0-10 2-14C7-17 12-12 10-9" stroke="#B1C09C" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <g id="bench">
+      <path d="M-17-3V5M17-3V5" stroke="#6A715D" stroke-width="2.5"/>
+      <path d="M-21-8L9-25L26-15L-4 2Z" fill="#B4A27A"/>
+      <path d="M-21-8L-4 2V6L-21-4Z" fill="#8F805E"/>
+      <path d="M-13-12L3-3M-5-17L11-8M3-21L19-12" stroke="#D9C8A3" stroke-width="1.3"/>
+    </g>
+  </defs>
+
+  <path fill="#F0F1E9" d="M0 0H900V560H0Z"/>
+
+  <!-- Hong Kong's hill line and compact urban edge. -->
+  <path d="M221 245L264 216L291 225L340 176L365 184L412 148L449 170L479 158L531 183L575 165L608 183L647 166L690 191L730 181L783 211L832 198L900 235V313H221Z" fill="#DFE5D7" opacity=".65"/>
+  <path d="M272 247L315 222L355 231L402 203L444 216L494 193L538 218L582 198L627 218L671 205L715 228L757 217L810 240L854 227L900 248V311H272Z" fill="#D3DDCD" opacity=".55"/>
+  <g fill="#CCD5C6" opacity=".55">
+    <path d="M280 243V195H298V243ZM303 246V177H320V246ZM325 249V209H340V249ZM346 246V183H366V246Z"/>
+    <path d="M702 246V183H719V246ZM724 257V164H744V257ZM749 264V194H769V264ZM775 271V180H793V271ZM801 283V213H823V283ZM830 294V194H852V294ZM858 306V226H876V306Z"/>
+  </g>
+  <g stroke="#EEF1E7" stroke-width="1" opacity=".65">
+    <path d="M309 184V238M314 184V238M352 191V239M359 191V239M730 173V246M738 173V246M781 188V258M787 188V258M837 204V280M844 204V280"/>
+  </g>
+
+  <ellipse cx="582" cy="421" rx="283" ry="91" fill="#52684F" opacity=".13" filter="url(#ground-shadow)"/>
+
+  <!-- The campus sits on a paper-model plinth. -->
+  <path d="M254 347L560 170L866 347L560 524Z" fill="#E4E7D6"/>
+  <path d="M254 347L560 524V536L254 359Z" fill="#D1D6C2"/>
+  <path d="M560 524L866 347V359L560 536Z" fill="url(#slab)"/>
+  <path d="M266 347L560 177L854 347L560 517Z" stroke="#F8F8EC" stroke-width="2"/>
+  <path d="M299 347L560 196L821 347L560 498Z" stroke="#D0D8C1" stroke-width="1"/>
+
+  <!-- Walkways and planted courts. -->
+  <path d="M382 300L560 197L803 337L764 360L561 243L422 323Z" fill="#F5F2E3"/>
+  <path d="M587 364L630 339L793 433L750 458Z" fill="#F5F2E3"/>
+  <path d="M506 462L554 434L612 468L565 495Z" fill="#F6F3E5"/>
+  <path d="M636 384L682 357L785 417L739 443Z" fill="#C6D3B2"/>
+  <path d="M646 384L682 363L774 417L738 437Z" stroke="#DAE1C9" stroke-width="1"/>
+  <g stroke="#B8C9A2" stroke-width="1">
+    <path d="M657 391L693 370M673 400L709 379M689 409L725 388M705 418L741 397M721 427L757 406"/>
+  </g>
+  <path d="M291 347L340 319L377 340L329 368Z" fill="#CBD6B7"/>
+
+  <!-- Basketball court, with all markings drawn in its ground plane. -->
+  <g transform="matrix(.8660254 .5 -.8660254 .5 457 309)">
+    <rect x="-6" y="-6" width="162" height="172" rx="2" fill="#D7C1A6"/>
+    <rect width="150" height="160" fill="url(#court)"/>
+    <path d="M7 7H143V153H7Z" stroke="#F1E5CF" stroke-width="1.4"/>
+    <path d="M7 80H143" stroke="#F1E5CF" stroke-width="1.3"/>
+    <circle cx="75" cy="80" r="20" stroke="#F1E5CF" stroke-width="1.3"/>
+    <path d="M48 7V42H102V7M48 153V118H102V153" stroke="#F1E5CF" stroke-width="1.3"/>
+    <path d="M58 42A17 17 0 0 0 92 42M58 118A17 17 0 0 1 92 118" stroke="#F1E5CF" stroke-width="1.3"/>
+    <path d="M20 7V21A55 55 0 0 0 130 21V7M20 153V139A55 55 0 0 1 130 139V153" stroke="#F1E5CF" stroke-width="1.3"/>
+    <path d="M65 13H85M65 147H85" stroke="#F1E5CF" stroke-width="1.8"/>
+  </g>
+  <g stroke-linejoin="round">
+    <path d="M519 338V313L504 304" stroke="#657B69" stroke-width="3"/>
+    <path d="M493 295L510 305V319L493 309Z" fill="#EEEEDF" stroke="#94A18A" stroke-width="1.3"/>
+    <path d="M499 302L506 306V312L499 308Z" stroke="#AFB69E" stroke-width=".8"/>
+    <ellipse cx="501" cy="313" rx="6" ry="3" stroke="#AE765A" stroke-width="1.4"/>
+    <path d="M373 420V395L389 386" stroke="#657B69" stroke-width="3"/>
+    <path d="M384 376L401 386V400L384 390Z" fill="#EEEEDF" stroke="#94A18A" stroke-width="1.3"/>
+    <path d="M389 383L396 387V393L389 389Z" stroke="#AFB69E" stroke-width=".8"/>
+    <ellipse cx="391" cy="394" rx="6" ry="3" stroke="#AE765A" stroke-width="1.4"/>
+  </g>
+
+  <!-- The smaller teaching wing. -->
+  <path d="M365 292L547 187L621 230L438 335Z" fill="#52644B" opacity=".13" filter="url(#building-shadow)"/>
+  <path d="M355 200L548 89L592 115L400 226Z" fill="#F7F5E8"/>
+  <path d="M355 200L400 226V318L355 292Z" fill="#C7D1BB"/>
+  <g transform="matrix(.8660254 -.5 0 1 400 226)">
+    <path d="M0 0H222V92H0Z" fill="#E6E7D6"/>
+    <path d="M0 29H222M0 57H222M0 85H222" stroke="#CCD3BE" stroke-width="1.3"/>
+    <use href="#windows-six" y="8"/>
+    <use href="#windows-six" y="36"/>
+    <use href="#windows-six" y="64"/>
+    <path d="M0 0H222V4H0Z" fill="#FBF9EB"/>
+    <path d="M0 90H222" stroke="#B5C2A7" stroke-width="4"/>
+  </g>
+  <g transform="matrix(.8660254 .5 0 1 355 200)">
+    <path d="M10 13H40V78H10Z" fill="#A7BAA1"/>
+    <path d="M12 16H38V76H12Z" fill="#8FA88E"/>
+    <path d="M25 16V76M12 37H38M12 57H38" stroke="#C8D3B9" stroke-width="2"/>
+    <path d="M13 73L36 59L13 45L36 31L13 18" stroke="#DBE1CC" stroke-width="2.4"/>
+  </g>
+  <path d="M355 200L548 89L592 115L400 226Z" stroke="#D8DECA" stroke-width="1.4"/>
+  <path d="M365 198L548 93L582 113L400 218Z" stroke="#E2E6D4" stroke-width="1.6"/>
+  <g transform="matrix(.8660254 -.5 .8660254 .5 425 169)">
+    <path d="M0 0H55V21H0Z" fill="#D1D7C4"/>
+    <path d="M0 0H55V-5H0Z" fill="#E6E9DA"/>
+    <path d="M9 6H47M9 10H47M9 14H47" stroke="#9BA98F" stroke-width="1.2"/>
+  </g>
+
+  <!-- The principal building: four floors, deep window reveals and a stair tower. -->
+  <path d="M564 243L797 377L850 346L618 212Z" fill="#465E46" opacity=".16" filter="url(#building-shadow)"/>
+  <g transform="matrix(.8660254 .5 0 1 558 120)">
+    <path d="M0 0H256V115H0Z" fill="#E7E4D2"/>
+    <path d="M0 32H256M0 57H256M0 82H256M0 107H256" stroke="#CDCDB6" stroke-width="1.2"/>
+    <use href="#windows-eight" y="11"/>
+    <use href="#windows-eight" y="36"/>
+    <use href="#windows-eight" y="61"/>
+    <use href="#windows-eight" y="86"/>
+    <path d="M0 0H256V5H0Z" fill="#F8F5E7"/>
+    <path d="M0 111H256V115H0Z" fill="#B3BFA5"/>
+    <path d="M3 4V111M253 4V111" stroke="#F8F6E7" stroke-width="4"/>
+    <path d="M34 5V109M64 5V109M94 5V109M124 5V109M154 5V109M184 5V109M214 5V109" stroke="#F0EDDD" stroke-width="2"/>
+  </g>
+  <g transform="matrix(.8660254 -.5 0 1 779.7 248)">
+    <path d="M0 0H58V115H0Z" fill="#B9C8AD"/>
+    <path d="M7 10H50V107H7Z" fill="#95AD92"/>
+    <path d="M11 13H46V104H11Z" fill="#79977F"/>
+    <path d="M12 100L44 80L12 59L44 38L12 17" stroke="#C7D4BA" stroke-width="3"/>
+    <path d="M12 79L44 59L12 38" stroke="#A7BCA0" stroke-width="2"/>
+    <path d="M28 13V104M9 34H48M9 58H48M9 82H48" stroke="#D3DCC6" stroke-width="2"/>
+    <path d="M0 0H58V5H0Z" fill="#E0E5D0"/>
+    <path d="M1 111H58V115H1Z" fill="#A4B498"/>
+  </g>
+  <path d="M558 120L608 91L830 219L780 248Z" fill="#F4F1E2" stroke="#D6DAC5" stroke-width="1.2"/>
+  <path d="M568 120L608 97L820 219L780 242Z" stroke="#E0E3D0" stroke-width="1.6"/>
+  <g transform="matrix(.8660254 .5 .8660254 -.5 558 120)">
+    <g fill="#59796B" stroke="#9DB09A" stroke-width="1.3">
+      <path d="M25 13H74V39H25Z"/><path d="M82 13H131V39H82Z"/>
+      <path d="M139 13H188V39H139Z"/>
+    </g>
+    <g stroke="#93AB9A" stroke-width=".8" opacity=".75">
+      <path d="M41 13V39M57 13V39M25 26H74M98 13V39M114 13V39M82 26H131M155 13V39M171 13V39M139 26H188"/>
+    </g>
+    <path d="M211 15H237V36H211Z" fill="#D2D8C3"/>
+    <path d="M211 15H237V11H211Z" fill="#E3E7D6"/>
+    <path d="M217 21H232M217 25H232M217 29H232" stroke="#A8B29B" stroke-width="1"/>
+  </g>
+
+  <!-- A glazed footbridge joins the two teaching wings. -->
+  <path d="M541 244V299M606 282V338" stroke="#B8C3A8" stroke-width="6"/>
+  <path d="M530 227L553 214L630 258L607 271Z" fill="#EAECDD"/>
+  <path d="M530 227L607 271V286L530 242Z" fill="#B9CCB8"/>
+  <path d="M607 271L630 258V273L607 286Z" fill="#9DB59C"/>
+  <path d="M530 224L607 268M607 268L630 255" stroke="#F3F3E6" stroke-width="3"/>
+  <path d="M545 236V250M562 245V260M579 255V270M596 265V280M618 263V279" stroke="#E2E9D7" stroke-width="1.5"/>
+  <path d="M530 242L607 286L630 273" stroke="#8FA68B" stroke-width="2"/>
+
+  <!-- Courtyard furniture and a low covered entry. -->
+  <path d="M686 332L739 363L766 347L713 317Z" fill="#CED5BD"/>
+  <path d="M694 324V347M738 349V372M758 338V361" stroke="#A7B397" stroke-width="3"/>
+  <path d="M686 322L713 306L766 337L739 353Z" fill="#D9D9BD" stroke="#EDF0DE" stroke-width="1.4"/>
+  <path d="M686 322V327L739 358V353Z" fill="#B4BC9D"/>
+  <path d="M739 353L766 337V342L739 358Z" fill="#A4B393"/>
+  <use href="#bench" x="687" y="397"/>
+  <use href="#bench" x="738" y="426"/>
+  <use href="#bench" x="560" y="470"/>
+  <path d="M628 414L642 406L655 414L641 422Z" fill="#A8B492"/>
+  <path d="M628 414V427L641 435V422Z" fill="#879A75"/>
+  <path d="M641 422L655 414V427L641 435Z" fill="#708A65"/>
+  <path d="M631 414L641 408L651 414L641 420Z" fill="#D0D9BC"/>
+
+  <!-- Trees and planting make a compact, sheltered campus. -->
+  <use href="#tree" transform="translate(327 327) scale(.84)"/>
+  <use href="#tree" transform="translate(292 363) scale(.66)"/>
+  <use href="#tree" transform="translate(815 373) scale(.93)"/>
+  <use href="#tree" transform="translate(768 454) scale(.88)"/>
+  <use href="#tree" transform="translate(674 477) scale(.75)"/>
+  <use href="#tree" transform="translate(521 501) scale(.63)"/>
+  <use href="#shrub" x="310" y="354"/>
+  <use href="#shrub" x="341" y="371"/>
+  <use href="#shrub" x="705" y="444"/>
+  <use href="#shrub" x="726" y="456"/>
+  <use href="#shrub" x="792" y="392"/>
+
+  <!-- Fine perimeter rails and the front steps. -->
+  <g stroke="#A6B596" stroke-width="1.6" stroke-linecap="round">
+    <path d="M267 344V332M289 357V345M311 370V358M333 383V371M355 396V384M377 409V397M399 422V410M421 435V423M443 448V436M465 461V449M487 474V462"/>
+    <path d="M267 334L487 464M267 339L487 469"/>
+    <path d="M645 476V464M667 463V451M689 450V438M798 388V376M820 375V363M842 362V350"/>
+    <path d="M645 466L689 440M645 471L689 445M798 378L842 352M798 383L842 357"/>
+  </g>
+  <path d="M535 510L560 524L605 498V504L560 530L535 516Z" fill="#B8C2A9"/>
+  <path d="M535 516L560 530L605 504L610 507L560 536L530 519Z" fill="#DEE2D0"/>
+  <path d="M530 519L560 536L610 507V512L560 541L530 524Z" fill="#C4CDB6"/>
+  <path d="M528 510V489M609 489V468" stroke="#879A7A" stroke-width="3"/>
+  <path d="M526 488L607 467L612 470L531 492Z" fill="#91A181"/>
+  <path d="M529 489L610 468" stroke="#C6D0B7" stroke-width="1.3"/>
+</svg>
